@@ -1,14 +1,15 @@
 ul {
     display: flex;
-    justify-content: center;
+    justify-content: right;
 
 }
 
 ul li {
     list-style: none;
-    color: black;
+    /* color: black; */
     /* text-decoration-line: none; */
-    padding: 0 25px;
+    /* padding: 0 2px; */
+    margin: 0 20px;
 
 }
 
@@ -24,7 +25,7 @@ ul li {
     line-height: 52px;
     letter-spacing: 0em;
     text-align: left;
-
+    margin: 0 200px 0 0;
 
 
 }
@@ -44,9 +45,9 @@ ul li {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     color: #484848;
-    ;
+    
 
     width: 98px;
     height: 24px;

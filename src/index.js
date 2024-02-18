@@ -6,6 +6,9 @@ import Home from "./Component/Home/Home";
 import Deals from './Component/Deals/Deals';
 import NewArivals from './Component/New Arivals/NewArivals';
 import Packages from './Component/Packages/Packages';
+import SignIn from './Component/SignIn/SignIn';
+import SignUp from './Component/SignUp/SignUp';
+import memo from './Component/memo/memo';
 
 let router = createBrowserRouter([
   {
@@ -24,6 +27,18 @@ let router = createBrowserRouter([
   path: "/Packages",
   element: <Packages />,
 },
+{
+  path: "/memo",
+  element: <memo />,
+},
+{
+    path: "/SignIn",
+    element: <SignIn />,
+},
+{
+  path: "/SignUp",
+  element: <SignUp />,
+}
 ])
 
 

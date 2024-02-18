@@ -7,9 +7,9 @@ import "./Navbar.css";
 
 function NavBar() {
   return (<>
-  <div className="d-flex">
+  <div className="d-flex container">
     <div className="Fasco">
-      FASCO
+     FASCO
     </div>
     <div className="Nav">
       <ul>
@@ -24,6 +24,15 @@ function NavBar() {
         </Link>
         <Link className="nav-link active" to={"/Packages"}>
           <li className="NavStyle">Packages</li>
+        </Link>
+        <Link className="nav-link active" to={"/memo"}>
+          <li className="NavStyle">memo</li>
+        </Link>
+        <Link className="nav-link active" to={"/SignIn"}>
+          <li className="NavStyle">Sign In</li>
+        </Link>
+        <Link className="nav-link active" to={"/SignUp"}>
+          <button className="NavStyle">Sign Up</button>
         </Link>
       </ul>
     </div>
