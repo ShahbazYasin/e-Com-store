@@ -1,0 +1,58 @@
+ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+ul li {
+    list-style: none;
+    color: black;
+    /* text-decoration-line: none; */
+    padding: 0 25px;
+
+}
+
+.Fasco {
+    width: 171px;
+    height: 52px;
+    top: 72px;
+    left: 320px;
+    color: #484848;
+    font-family: Volkhov;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
+
+.Nav {
+    width: 764px;
+    height: 56px;
+    top: 70px;
+    left: 836px;
+    border-radius: 10px;
+
+}
+
+.NavStyle {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #484848;
+    ;
+
+    width: 98px;
+    height: 24px;
+    top: 87px;
+    left: 1045px;
+
+
+}
+
