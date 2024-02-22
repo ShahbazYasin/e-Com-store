@@ -5,7 +5,7 @@ export default function memo() {
   return (
     <>
     <NavBar />
-    <div>Memo</div>
+    <div className='container'>Memo</div>
     </>
   )
 }

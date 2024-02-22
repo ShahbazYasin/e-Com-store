@@ -8,7 +8,7 @@ import NewArivals from './Component/New Arivals/NewArivals';
 import Packages from './Component/Packages/Packages';
 import SignIn from './Component/SignIn/SignIn';
 import SignUp from './Component/SignUp/SignUp';
-import memo from './Component/memo/memo';
+import Memo from './Component/memo/memo';
 
 let router = createBrowserRouter([
   {
@@ -29,7 +29,7 @@ let router = createBrowserRouter([
 },
 {
   path: "/memo",
-  element: <memo />,
+  element: <Memo />,
 },
 {
     path: "/SignIn",

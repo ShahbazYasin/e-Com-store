@@ -1,0 +1,10 @@
+.product-card{
+    border: 1px solid black;
+    margin: 5px;
+    width: 300px;
+}
+.product-flex{
+    display: flex;
+    
+
+}
