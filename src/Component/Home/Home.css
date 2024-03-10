@@ -1,0 +1,94 @@
+p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 30px; */
+    letter-spacing: 0.1em;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: Poppins;
+    font-size: 90px;
+    font-weight: 500;
+    /* line-height: 187px; */
+    letter-spacing: 50px;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: Poppins;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: -5px;
+    letter-spacing: -0.05em;
+    text-align: center;
+
+}
+
+.homebtn {
+    width: 207px;
+    height: 56px;
+    /* top: 733px;
+left: 855px; */
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.H-image1 {
+    /* width: 392px; */
+    height: 570px;
+    top: 406px;
+    left: 320px;
+
+}
+
+.H-image2 {
+    /* width: 249px; */
+    height: 568px;
+    top: 406px;
+    left: 1272px;
+
+}
+
+.H-image3 {
+    width: 399px;
+    height: 145px;
+    top: 225px;
+    left: 761px;
+
+}
+
+.H-image4 {
+    width: 426px;
+    height: 150px;
+    top: 826px;
+    left: 747px;
+    border-radius: 10px;
+
+}
+
+.icons-img {
+    width: 196px;
+    height: 33px;
+    top: 1088px;
+    left: 320px;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.icon-container {
+    width: 100%;
+    height: auto;
+    /* top: 1003px; */
+    border-radius: 5px;
+    margin: 70px 0px;
+
+}

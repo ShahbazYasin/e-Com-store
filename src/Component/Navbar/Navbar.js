@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { FaHome } from "react-icons/fa";
+// import { FaHome } from "react-icons/fa";
 
 
 
@@ -17,8 +17,8 @@ function NavBar() {
       <ul>
 
         <Link className="nav-link active" to={"/"}>
-          {/* <li className="NavStyle">Home</li> */}
-      <FaHome />
+          <li className="NavStyle">Home</li>
+      {/* <FaHome /> */}
         </Link>
         <Link className="nav-link active" to={"/Deals"}>
           <li className="NavStyle">Deals</li>
@@ -38,7 +38,7 @@ function NavBar() {
           <li className="NavStyle">Sign In</li>
         </Link>
         <Link className="nav-link active" to={"/SignUp"}>
-          <button className="NavStyle">Sign Up</button>
+          <button className="btn btn-dark SignBtn shadow-lg p-2 mb-5">Sign Up</button>
         </Link>
       </ul>
     </div>
