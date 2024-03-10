@@ -28,19 +28,19 @@ function Deals() {
         <NavBar />
       </div>
       <div className="container">Deals</div>
+      <div className="product-flex d-flex flex-wrap">
       {posts.map((value) => {
         console.log(value)
         return (
-         <div className="product-flex">
-           <div className="container product-card ">
-            <h3>{value.id}</h3>
-            <h1>{value.title}</h1>
-            <p>{value.body}</p>
-            <h3>{value.userId}</h3>
-          </div>
-         </div>
+            <div className="container product-card ">
+              <h3>{value.id}</h3>
+              <h1>{value.title}</h1>
+              <p>{value.body}</p>
+              <h3>{value.userId}</h3>
+            </div>
         )
       })}
+      </div>
 
     </>
   );

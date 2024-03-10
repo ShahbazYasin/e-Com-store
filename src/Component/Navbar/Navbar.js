@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { FaHome } from "react-icons/fa";
+
 
 
 
@@ -13,14 +15,18 @@ function NavBar() {
     </div>
     <div className="Nav">
       <ul>
+
         <Link className="nav-link active" to={"/"}>
-          <li className="NavStyle">Home</li>
+          {/* <li className="NavStyle">Home</li> */}
+      <FaHome />
         </Link>
         <Link className="nav-link active" to={"/Deals"}>
           <li className="NavStyle">Deals</li>
         </Link>
         <Link className="nav-link active" to={"/NewArivals"}>
           <li className="NavStyle">New Arrivals</li>
+          
+
         </Link>
         <Link className="nav-link active" to={"/Packages"}>
           <li className="NavStyle">Packages</li>
