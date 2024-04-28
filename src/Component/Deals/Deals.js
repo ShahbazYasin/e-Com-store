@@ -35,7 +35,7 @@ function Deals() {
         return (
             <div className="container product-card ">
               <h3>{value.id}</h3>
-              <h2>{value.title}</h2>
+              <h2 style={{fontSize: "24px"}}>{value.title}</h2>
               {/* <p>{value.body}</p> */}
               {/* <h3>{value.userId}</h3> */}
               {/* <img src={value.url} width={"200px"} height={"100px"} />  */}

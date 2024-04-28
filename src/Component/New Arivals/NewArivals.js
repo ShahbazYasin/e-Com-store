@@ -6,8 +6,11 @@ function NewArivals() {
     <div>
       
       <NavBar />
+   
     </div>
       <div className="container">New Arrivals</div>
+
+   
       </>
   );
 }
